@@ -56,9 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const exampleButtons = [
-        { id: "exampleQueryClients", query: "SELECT * FROM clients" },
-        { id: "exampleQueryRoutes", query: "SELECT * FROM routes" },
-        { id: "exampleQueryTrips", query: "SELECT * FROM trips" }
+        { id: "exampleQueryClients", query: "SELECT * FROM client" },
+        { id: "exampleQueryRoutes", query: "SELECT * FROM item" },
+        { id: "exampleQueryTrips", query: "SELECT * FROM city" }
     ];
 
     exampleButtons.forEach(buttonConfig => {
